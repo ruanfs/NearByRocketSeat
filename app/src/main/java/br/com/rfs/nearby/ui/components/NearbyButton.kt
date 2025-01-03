@@ -1,6 +1,7 @@
 package br.com.rfs.nearby.ui.components
 
 import androidx.annotation.DrawableRes
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.Button
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -21,5 +22,5 @@ fun NearbyButton(
 @Preview
 @Composable
 private fun NearbyButtonPreview() {
-    NearbyButton(modifier = Modifier, text = "Confirmar", iconRes = null) {}
+    NearbyButton(modifier = Modifier.fillMaxWidth(), text = "Confirmar", iconRes = null) {}
 }
